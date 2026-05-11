@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="%LANG_ISO_CODE%">
+  <head>
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+    <title>%WEB_TITLE%</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#00ffe7" />
+    <meta name="description" content="Social Map Game — trova i tuoi amici sulla mappa in tempo reale." />
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="GOGANG" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+
+    <!-- Open Graph (condivisione social) -->
+    <meta property="og:title" content="GOGANG" />
+    <meta property="og:description" content="Social Map Game — trova i tuoi amici sulla mappa in tempo reale." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/icon-512.png" />
+
+    <!-- Mapbox GL CSS -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.23.1/mapbox-gl.css" rel="stylesheet" />
+
+    <!-- react-native-web reset -->
+    <style id="expo-reset">
+      html, body { height: 100%; margin: 0; padding: 0; background: #0a0a1a; }
+      body { overflow: hidden; }
+      #root { display: flex; height: 100%; flex: 1; }
+      * { -webkit-tap-highlight-color: transparent; }
+    </style>
+  </head>
+
+  <body>
+    <noscript>GOGANG richiede JavaScript.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
